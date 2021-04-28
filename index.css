@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar ul li a {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.card-gallery .img-content .overlay {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.59);
+    opacity: 0;
+}
+.card-gallery:hover .overlay {
+    opacity: 1;
+    transition: all.7s ease-in;
+}
+footer ul li {
+    list-style: none;
+    margin-left: -45px;
+    padding-bottom: 17px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 17px;
+}
+
+
+@media (min-width: 300px) { 
+    .section-banner .text-content h1 {
+        font-size: 40px;
+    }
+    .section-banner .text-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .section-banner .form-content-1 {
+        width: 93%;
+        z-index: 9999;
+    }
+    .section-banner  .kotak {
+        border: 2px solid rgb(36, 36, 36);
+        width: 90%;
+        height: 1920%;
+        margin-left: -20px;
+        margin-top: -20px;
+        position: absolute;
+        display: none;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display:none;
+    }
+    .section-card-dream {
+        margin-top:500px;
+    }
+    .section-experience .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-experience .text-content{
+        margin-top: 40px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .section-experience .text-content p {
+        font-size: 11px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .navbar .bt {
+        margin:  15px 0 !important;
+    }
+    ul li {
+        padding: 0px;
+    }
+    .navbar {
+        background-color: #007972 !important;
+    }
+}
+@media (min-width: 400px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+    }
+    .section-banner .text-content {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .section-banner .form-content-1 {
+        width: 95%;
+        z-index: 9999;
+    }
+    .section-banner  .kotak {
+        border: 2px solid rgb(36, 36, 36);
+        width: 90%;
+        height: 1920%;
+        margin-left: -20px;
+        margin-top: -20px;
+        position: absolute;
+        display: none;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display:none;
+    }
+    .section-card-dream {
+        margin-top:500px;
+    }
+    .section-experience .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-experience .text-content{
+        margin-top: 40px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .section-experience .text-content p {
+        font-size: 13px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .navbar .bt {
+        margin:  15px 0 !important;
+    }
+    ul li {
+        padding: 0px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+    }
+    .section-banner .text-content {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .section-banner .form-content-1 {
+        width: 100%;
+        z-index: 9999;
+    }
+    .section-banner  .kotak {
+        border: 2px solid rgb(36, 36, 36);
+        width: 90%;
+        height: 1920%;
+        margin-left: -20px;
+        margin-top: -20px;
+        position: absolute;
+        display: none;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display:none;
+    }
+    .section-card-dream {
+        margin-top:500px;
+    }
+    .section-experience .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-experience .text-content{
+        margin-top: 40px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .section-experience .text-content p {
+        font-size: 15px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .navbar {
+        background-color: #007972 !important;
+    }
+    .navbar .bt {
+        margin:  15px 0 !important;
+    }
+    ul li {
+        padding: 0px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+    }
+    .section-banner .text-content {
+        padding-bottom: 20px;
+       
+        text-align: center;
+    }
+    .section-banner .form-content-1 {
+        width: 100%;
+        z-index: 9999;
+    }
+    .section-banner  .kotak {
+        border: 2px solid rgb(36, 36, 36);
+        width: 90%;
+        height: 1920%;
+        margin-left: -20px;
+        margin-top: -20px;
+        position: absolute;
+        display: none;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display:none;
+    }
+    .section-card-dream {
+        margin-top:400px;
+    }
+    .section-experience .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-experience .text-content{
+        margin-top: 40px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .section-experience .text-content p {
+        font-size: 15px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .navbar .bt {
+        margin:  15px  0 !important;
+    }
+    ul li {
+        padding: 0px;
+    }
+   
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+    }
+    .section-banner .text-content {
+        padding-top: 0;
+    }
+    .section-banner .text-content {
+        padding-top: 50px;
+        text-align: left;
+    }
+    .section-banner .form-content-1 {
+        width: 90%;
+        z-index: 9999;
+    }
+    .section-banner  .kotak {
+        border: 2px solid rgb(36, 36, 36);
+        width: 90%;
+        height: 189%;
+        margin-left: -20px;
+        margin-top: -20px;
+        position: absolute;
+        display: block;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .section-card-dream {
+        margin-top: 200px;
+    }
+    .section-experience .img-content img {
+        width: 110%;
+        height: 450px;
+    }
+    .section-experience .text-content{
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .section-experience .text-content p {
+        font-size: 15px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .navbar .bt {
+        margin: 0 20px;
+    }
+    ul li {
+        padding: 0 15px;
+    }
+    .navbar {
+        background-color: transparent !important;
+        position: initial !important;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-banner .text-content {
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner .form-content-1 {
+        width: 80%;
+    }
+    .section-banner  .kotak {
+        border: 2.3px solid rgb(60, 60, 60);
+        width: 80%;
+        height: 182%;
+        margin-left: -20px;
+        margin-top: -20px;
+        position: absolute;
+        display: block;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 2.5px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 2.5px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .section-card-dream {
+        margin-top: 200px;
+    }
+    .section-experience .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-experience .text-content{
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    .section-experience .text-content p {
+        font-size: 17px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .navbar .bt {
+        margin: 0 20px !important;
+    }
+    ul li {
+        padding: 0 15px;
+    }
+    .navbar {
+        background-color: transparent !important;
+        position: initial !important;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }

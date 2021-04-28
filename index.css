@@ -20,11 +20,7 @@
     opacity: 1;
     transition: all.7s ease-in;
 }
-footer ul li {
-    list-style: none;
-    margin-left: -45px;
-    padding-bottom: 17px;
-}
+
 footer ul li a {
     text-decoration: none;
     color: #fff;
@@ -100,6 +96,11 @@ footer h5 {
     .navbar {
         background-color: #007972 !important;
     }
+    footer ul li {
+        list-style: none;
+        margin-left: -34px;
+        padding-bottom: 17px;
+    }
 }
 @media (min-width: 400px) { 
     .section-banner .text-content h1 {
@@ -158,6 +159,11 @@ footer h5 {
     }
     ul li {
         padding: 0px;
+    }
+    footer ul li {
+        list-style: none;
+        margin-left: -34px;
+        padding-bottom: 17px;
     }
 }
 /* // Small devices (landscape phones, 576px and up) */
@@ -222,6 +228,11 @@ footer h5 {
     ul li {
         padding: 0px;
     }
+    footer ul li {
+        list-style: none;
+        margin-left: -34px;
+        padding-bottom: 17px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -284,7 +295,11 @@ footer h5 {
     ul li {
         padding: 0px;
     }
-   
+    footer ul li {
+        list-style: none;
+        margin-left: -34px;
+        padding-bottom: 17px;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -353,6 +368,11 @@ footer h5 {
         background-color: transparent !important;
         position: initial !important;
     }
+    footer ul li {
+        list-style: none;
+        margin-left: -45px;
+        padding-bottom: 17px;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -419,6 +439,11 @@ footer h5 {
     .navbar {
         background-color: transparent !important;
         position: initial !important;
+    }
+    footer ul li {
+        list-style: none;
+        margin-left: -45px;
+        padding-bottom: 17px;
     }
  }
 
